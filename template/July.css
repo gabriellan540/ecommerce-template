@@ -1,0 +1,206 @@
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: large;
+  }
+  
+  li a:hover {
+    transition: 0.5s;
+    color: bisque;
+    text-decoration: underline;
+  }
+
+  /* .logo{
+    padding: 16px;
+  } */
+  .icon{
+    padding: 16px;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .cart{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+  }
+
+  .description{
+    margin-top: 70px;
+    width: 200px;
+    /* height: 100px; */
+    z-index: 12;
+  }
+  .shopBtn{
+    height: 50px;
+    width: 160px;
+    border-radius: 7px;
+  }
+
+  .coat{
+    z-index: 5;
+    position: relative;
+    /* width: 200px; */
+    max-width: 100%;
+  }
+
+  /* .trend{
+    margin-top: 50px;
+  }
+
+  .card{
+    width: 550px;
+    height: 240px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: none;
+    font-weight: bold;
+  } */
+
+  .trend{
+    height: 400px;
+  }
+
+  .bagImg{
+    max-width:100%;
+    float: right;
+    height: 150px;
+    width: 250px;
+    transition: transform 1s;
+  }
+
+  .bagImg:hover{
+    transform: scale(1.3);
+  }
+
+  .bag,
+  .shoes {
+    flex: 1;
+    /* border: 2px solid yellow; */
+  }  
+
+  .bag {
+    margin-right: 20px;
+  } 
+
+  .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    margin-top: 50px;
+    /* margin-left: 50px; */
+    flex: 1;
+    background-color: #e5e4e2;
+    /* width: 100px; */
+    height: 240px;
+    padding: 45px;
+    border: none;
+    font-weight: bold;
+}  
+
+.flex-child:first-child {
+    margin-right: 30px;
+    margin-left: 90px;
+} 
+
+  .flex-child:last-child{
+    margin-right: 60px;
+  }
+
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .child {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 20px);
+  }
+
+  .child img{
+    width: 250px;
+    height: 350px;
+  }
+
+  .child fa{
+    font-size: large;
+  }
+
+  .highlight1{
+    position: relative;
+  }
+
+  .highlight1 img.imgHover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+
+  .highlight1:hover .imgHover {
+    opacity: 1;
+  }
+
+  .highlight1:hover .search{
+    opacity: 1;
+  }
+
+  .highlight1:hover .like{
+    opacity: 1;
+  }
+
+  .like{
+    position: absolute;
+    text-align: center;
+    line-height: 33px;
+    vertical-align: middle;
+    bottom: 240px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cornsilk;
+    opacity: 0;
+  }
+  .search{
+    position: absolute;
+    top: 65px;
+    right: 30px;
+    text-align: center;
+    line-height: 33px;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cornsilk;
+    opacity: 0;
+  }
+
+  footer{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .logo{
+    font-weight: bold;
+    font-size: 1.5em;
+  }
